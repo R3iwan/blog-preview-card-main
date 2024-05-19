@@ -1,0 +1,134 @@
+:root{
+    font-size: 1em;
+    box-sizing: border-box;
+    font-family: "Figtree";
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(47, 88%, 63%);
+}
+
+@font-face {
+    font-family: "Figtree-Italic";
+    src: url(assets/fonts/Figtree-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "Figtree-Extra";
+    src: url(assets/fonts/static/Figtree-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: "Figtree-Semi";
+    src: url(assets/fonts/static/Figtree-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "Figtree";
+    src: url(assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+
+.attribution { 
+    font-size: 11px;
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
+
+/* Desktop Version */
+.container{
+    max-width: 1440px;
+    display: block;
+    margin: 0 auto;
+}
+
+.main {
+    max-width: 380px;
+    margin: 8em auto;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 1em;
+    padding: 0.25em;
+    box-shadow: 0.5em 0.5em 0.1em hsl(0, 0%, 7%);
+}
+
+.content{
+    max-width: 340px;
+    margin: 0 auto;
+}
+
+.content-img{
+    max-width: 336px;
+    margin: 0 auto;
+}
+
+.content-img img{
+    max-width: 100%;
+    display: block;
+    margin-top: 0.75em;
+    border-radius: 1em;
+
+}
+
+.content h3 span{
+    color: black;
+    background-color: hsl(47, 88%, 63%);
+    font-size: 0.7em;
+    padding: 0.6em;
+    border-radius: 0.25em;
+    font-family: "Figtree-Semi";
+}
+
+.content h1{
+    font-size: 1.5em;
+    font-family: "Figtree-Extra";
+}
+
+.content a{
+    text-decoration: none;
+    color: black;
+}
+
+.content a h1:hover{
+    color: yellow;
+}
+
+.main-text{
+    color: gray;
+}
+
+.name-img{
+    display: flex;
+    padding: 0.75em 0;
+}
+
+.main-img img{
+    width: 32px;
+    height: 32px;
+}
+
+.main-name{
+    display: inline-block;
+    text-align: center;
+    font-family: "Figtree-Extra";
+    padding: 0.5em;
+    font-size: 0.75em;
+}
+
+/* Mobile Version */
+@media screen and (max-width:375px) {
+    .container{
+        max-width: 375x;
+    }
+
+    .main {
+        max-width: 320px;
+    }
+
+    .content{
+        max-width: 300px;
+    }
+}
